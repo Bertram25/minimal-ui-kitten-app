@@ -1,0 +1,147 @@
+{
+  "components": {
+    "Select": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "popoverMaxHeight": 270
+          }
+        }
+      }
+    },
+    "Datepicker": {
+      "appearances": {
+        "default": {
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "textColor": "text-basic-color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BottomNavigationTab": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textColor": "text-basic-color",
+            "iconTintColor": "text-basic-color"
+          }
+        }
+      }
+    },
+    "BottomNavigation": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-2"
+          }
+        }
+      }
+    },
+    "List": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-1"
+          }
+        },
+        "secondary": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-3"
+          }
+        }
+      }
+    },
+    "Card": {
+      "appearances": {
+        "outlineWithoutFeedback": {
+          "mapping": {
+            "state": {
+              "active": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        },
+        "filledWithoutFeedback": {
+          "mapping": {
+            "borderWidth": 0,
+            "borderColor": "transparent",
+            "state": {
+              "active": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        },
+        "scheduleCardLight": {
+          "mapping": {
+            "backgroundColor": "color-basic-300",
+            "state": {
+              "active": {
+                "backgroundColor": "color-basic-400"
+              }
+            }
+          }
+        },
+        "scheduleCardDark": {
+          "mapping": {
+            "backgroundColor": "color-basic-900",
+            "state": {
+              "active": {
+                "backgroundColor": "color-basic-1000"
+              }
+            }
+          }
+        },
+        "scheduleCardLightWithoutFeedback": {
+          "mapping": {
+            "backgroundColor": "color-basic-300",
+            "state": {
+              "active": {
+                "backgroundColor": "color-basic-300"
+              }
+            }
+          }
+        },
+        "scheduleCardDarkWithoutFeedback": {
+          "mapping": {
+            "backgroundColor": "color-basic-900",
+            "state": {
+              "active": {
+                "backgroundColor": "color-basic-900"
+              }
+            }
+          }
+        },
+        "insightCard": {
+          "mapping": {
+            "headerPaddingHorizontal": 0,
+            "headerPaddingVertical": 0,
+            "state": {
+              "active": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "MenuItem": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "titleFontSize": "text-paragraph-1-font-size",
+            "titleFontWeight": "text-paragraph-1-font-weight",
+            "titleFontFamily": "text-paragraph-1-font-family",
+            "iconWidth": 24,
+            "iconHeight": 24
+          }
+        }
+      }
+    }
+  }
+}
